@@ -4,3 +4,23 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.tech-img {
+    width: 100px; 
+    height: 100px;
+    object-fit: contain;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.footer a {
+    color: var(--background-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
